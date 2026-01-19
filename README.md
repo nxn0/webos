@@ -1,20 +1,7 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+This project introduces WebOS, a browser-based minimalistic operating system simulation designed to create a mini productive workflow, created entirely using Google AI Studio. WebOS combines multiple applications, including a lightweight machine learning training interface, an advanced calculator, productivity utilities (e.g., todo, notes app), creativity applications, and entertainment applications. Each application operates within isolated windows and interacts with a virtual file system, allowing users to store, manage, and transfer data seamlessly between the virtual environment and their local filesystem. It has synchronized time & date.
 
-# Run and deploy your AI Studio app
+WebOS was created/generated using Gemini 3 Pro (preview) in the AI Studio, with a starting prompt, and then developed applications by iterating and following up with prompts. Initially it was a simple operating system clone with mostly demo applications, later developed and merged through prompts. As the code turned complex, it was prompted to separate each applications into separate codes and the development was followed through.
 
-This contains everything you need to run your app locally.
+The platform’s significance lies in its ability to combine practical application functionality and educational exploration, all bundled together in a single ecosystem. By providing a unified OS-like environment for experimenting with machine learning, productivity, creativity, and interactive applications, WebOS encourages hands-on learning and experimentation, in a single interface without switching tabs for each interface.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1LG3rTeuI2yW9i14FeDONcKf5uuw2yyCH
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+project link: https://ai.studio/apps/drive/1LG3rTeuI2yW9i14FeDONcKf5uuw2yyCH?fullscreenApplet=true
