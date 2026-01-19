@@ -1,0 +1,7 @@
+{
+  "name": "WebOS",
+  "description": "A fully functional desktop OS simulator in the browser with an in-built ML inference trainer, and advanced tools for day to day productive life.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

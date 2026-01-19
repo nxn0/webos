@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>WebOS Simulator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        overflow: hidden;
+        user-select: none;
+      }
+      /* Custom Scrollbar for Apps */
+      ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: rgba(156, 163, 175, 0.5);
+        border-radius: 3px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgba(156, 163, 175, 0.8);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.32.0",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.557.0",
+    "vitest": "https://aistudiocdn.com/vitest@^4.0.15",
+    "chart.js": "https://esm.sh/chart.js",
+    "chart.js/auto": "https://esm.sh/chart.js/auto",
+    "react-chartjs-2": "https://esm.sh/react-chartjs-2?external=react,react-dom",
+    "papaparse": "https://esm.sh/papaparse",
+    "chart.js/": "https://esm.sh/chart.js@^4.5.1/",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.1/package/xlsx.mjs",
+    "@tensorflow/tfjs": "https://esm.sh/@tensorflow/tfjs"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
