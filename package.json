@@ -15,7 +15,6 @@
     "lucide-react": "^0.557.0",
     "vitest": "^4.0.15",
     "chart.js": "^4.5.1",
-    "chart.js/auto": "latest",
     "react-chartjs-2": "latest",
     "papaparse": "latest",
     "xlsx": "latest",
