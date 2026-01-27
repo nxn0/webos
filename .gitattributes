@@ -1,0 +1,3 @@
+*.tsx linguist-vendored
+*.ts linguist-vendored
+*.css linguist-vendored
